@@ -1,5 +1,5 @@
 # Advanced and Robot Programming - Assignment 1 #
-## Authors: Mobina Alinaghian & Sayna A ##
+## Authors: Mobina Alinaghian & Sayna Arghideh ##
 
 ### Introduction ###
 In this project, we will create a robot with dynamic movements within a designated area, controllable using keyboard keys. We will utilize the NCurses library for this simulation. The components of this project are as follows:
