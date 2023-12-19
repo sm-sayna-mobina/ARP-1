@@ -1,28 +1,32 @@
+
+
 all: master server drone input world watchdog window
 
 clean-logs:
 	rm -f build/log/watchdog/* 
 
 clean:
-	rm -f build/master build/simple_process build/watchdog build/server build/drone build/input build/world build/window
+	rm -f build/master build/server build/drone build/input build/world build/watchdog build/window
 
-master:
-	gcc master.c -o build/master
+master: master.c
+        master.c -o build/master
 
-server:
-	gcc server.c -o build/server
+server: server.c
+	 server.c -o build/server
 
-drone:
-	gcc drone.c -o build/drone -lncurses -lm
+drone: drone.c
+	 drone.c -o build/drone
 
-input:
-	gcc input.c -o build/input -lncurses
+input: input.c
+	 input.c -o build/input
 
-world:	
-	gcc world.c -o build/world -lncurses
+world: world.c
+	 world.c -o build/world
 
-watchdog:
-	gcc watchdog.c -o build/watchdog -lncurses
+watchdog: watchdog.c
+	 watchdog.c -o build/watchdog 
 
-window:
-	gcc window.c -o build/window -lncurses
+window: window.c
+	 window.c -o build/window 
+
+.PHONY: all clean clean-logs
