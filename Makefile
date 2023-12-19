@@ -1,5 +1,3 @@
-
-
 all: master server drone input world watchdog window
 
 clean-logs:
