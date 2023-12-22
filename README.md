@@ -17,7 +17,7 @@ sudo apt-get install libncurses-dev
 - Open the terminal
 - clone this repository to your desired location:
 <pre><code>git clone https://github.com/sm-sayna-mobina/ARP-1.git</code></pre>
--Go to the folder:
+- Go to the folder:
 <pre><code>cd ARP-1/arp_project</code></pre>
 - Run the project:
  <pre><code> ./run.sh </code></pre>
