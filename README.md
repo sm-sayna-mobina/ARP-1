@@ -21,6 +21,7 @@ sudo apt-get install libncurses-dev
 <pre><code>cd ARP-1/arp_project</code></pre>
 - Run the project:
  <pre><code> ./run.sh </code></pre>
+ If the code does not run, check the file's permissions in the 'Properties' section.
 
 ### How to control drone movements ###
 The keys to be pressed in the input window for maneuvering the drone and performing other actions are:
